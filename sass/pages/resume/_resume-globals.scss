@@ -1,5 +1,10 @@
 /* Set Width to Make resume fit to A$ Display */
+
+$resume-max-width: 842px;
+
 .resume{
-  max-width:842px;
+  $id : &;
+  max-width: $resume-max-width;
   margin: auto;
+
 }

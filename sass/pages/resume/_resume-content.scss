@@ -1,0 +1,14 @@
+.resume-content{
+      $id: &;
+
+      #{$id}__col-1{
+            @include flex-basis(460px);
+            padding-right: 20px;
+            border-right: 1px solid #98baf2;
+      }
+
+      #{$id}__col-2{
+            padding-left: 20px;
+            border-left: 1px solid #98baf2;
+      }
+}

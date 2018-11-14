@@ -1,0 +1,33 @@
+.resume-references{
+      $id:&;
+      max-width: $resume-max-width - 100px;
+      margin: auto;
+
+      #{$id}__title{
+            text-align: center;
+      }
+
+      #{$id}__item{
+            @include flexbox();
+
+            #{$id}__item-cell{
+            }
+
+            #{$id}__name{
+                  @include flex-basis(20%);
+            }
+
+            #{$id}__position{
+                  @include flex-basis(30%);
+            }
+
+            #{$id}__email {
+                  @include flex-basis(30%);
+            }
+
+            #{$id}__phone{
+                  @include flex-basis(20%);
+
+            }
+      }
+}
