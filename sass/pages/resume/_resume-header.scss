@@ -2,4 +2,9 @@
       $id: &;
       margin-bottom: 30px;
       text-align: center;
+
+      #{$id}__name{
+            margin-top: 0px;
+            margin-bottom: 10px;
+      }
 }

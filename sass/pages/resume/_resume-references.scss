@@ -2,6 +2,7 @@
       $id:&;
       max-width: $resume-max-width - 100px;
       margin: auto;
+      font-size: 12px;
 
       #{$id}__title{
             text-align: center;
@@ -14,15 +15,18 @@
             }
 
             #{$id}__name{
-                  @include flex-basis(20%);
+                  //@include flex-basis(10%);
+                  width: 200px;
             }
 
             #{$id}__position{
-                  @include flex-basis(30%);
+                  //@include flex-basis(30%);
+                  width: 200px;
             }
 
             #{$id}__email {
-                  @include flex-basis(30%);
+                  //@include flex-basis(30%);
+                  width: 200px;
             }
 
             #{$id}__phone{
