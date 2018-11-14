@@ -1,8 +1,15 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
+const gulp = require('gulp'),
+      sass = require('gulp-sass');
 
-gulp.task('sass', function(){
-    return gulp.src('./sass/styles.scss')
+const sassFiles = './sass/styles.scss';
+const cssDest   = './';
+
+gulp.task('sass', function () {
+    return gulp.src(sassFiles)
         .pipe(sass()) // Converts Sass to CSS with gulp-sass
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest(cssDest))
+});
+
+gulp.task('watch',function () {
+    gulp.watch(sassFiles, gulp.series('sass'));
 });
