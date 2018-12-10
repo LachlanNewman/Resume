@@ -1,10 +1,9 @@
 .resume-header {
       $id: &;
-      margin-bottom: 30px;
-      text-align: center;
+      margin-bottom: 20px;
 
       #{$id}__name{
-            margin-top: 0px;
+            margin-top: 0;
             margin-bottom: 10px;
       }
 }

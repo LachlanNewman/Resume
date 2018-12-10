@@ -2,13 +2,13 @@
      $id: &;
 
       #{$id}__title{
-            margin-top: 0px;
+            margin:0 0 10px 0;
       }
 
       #{$id}__item{
-            margin-bottom: 10px;
+            margin-top: 10px;
             * {
-                  margin: 0px;
+                  margin: 0;
                   font-size: $font-size-small;
             }
       }

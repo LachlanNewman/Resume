@@ -2,15 +2,16 @@
       $id: &;
 
       #{$id}__title{
-            margin-top:0px;
+            margin-top:0;
       }
 }
 
 .resume-experience-list{
       $id: &;
-      margin: 10px 0px;
+      margin: 10px 0;
 
       #{$id}__item{
             font-size: $font-size-small;
+            margin-bottom: 5px;
       }
 }

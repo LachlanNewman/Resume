@@ -2,8 +2,17 @@
 
 $resume-max-width: 842px;
 
-.resume{
-  $id : &;
-  max-width: $resume-max-width;
-  margin: auto;
+.resume {
+      $id: &;
+      max-width: $resume-max-width;
+      margin: auto;
+
+      h2{
+            margin:0 0 10px 0;
+            text-decoration: underline;
+      }
+}
+
+.section {
+      margin-bottom: 10px;
 }

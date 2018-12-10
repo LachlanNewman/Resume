@@ -11,21 +11,26 @@
 .resume {
   max-width: 842px;
   margin: auto; }
+  .resume h2 {
+    margin: 0 0 10px 0;
+    text-decoration: underline; }
+
+.section {
+  margin-bottom: 10px; }
 
 .resume-education .resume-education__title {
-  margin-top: 0px; }
+  margin: 0 0 10px 0; }
 
 .resume-education .resume-education__item {
-  margin-bottom: 10px; }
+  margin-top: 10px; }
   .resume-education .resume-education__item * {
-    margin: 0px;
+    margin: 0;
     font-size: 14px; }
 
 .resume-header {
-  margin-bottom: 30px;
-  text-align: center; }
+  margin-bottom: 20px; }
   .resume-header .resume-header__name {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 10px; }
 
 .resume-references {
@@ -43,7 +48,7 @@
     .resume-references .resume-references__item .resume-references__name {
       width: 200px; }
     .resume-references .resume-references__item .resume-references__position {
-      width: 200px; }
+      width: 300px; }
     .resume-references .resume-references__item .resume-references__email {
       width: 200px; }
     .resume-references .resume-references__item .resume-references__phone {
@@ -53,12 +58,13 @@
       flex-basis: 20%; }
 
 .resume-experience .resume-experience__title {
-  margin-top: 0px; }
+  margin-top: 0; }
 
 .resume-experience-list {
-  margin: 10px 0px; }
+  margin: 10px 0; }
   .resume-experience-list .resume-experience-list__item {
-    font-size: 14px; }
+    font-size: 14px;
+    margin-bottom: 5px; }
 
 .resume-content .resume-content__col-1 {
   -webkit-flex-basis: 400px;
