@@ -1,0 +1,158 @@
+/* Created : 12:57 17/01/2019
+   Created By : lachn
+   _variables - OPEN
+*/
+/* Display as Flex Box */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #011638;
+  color: #DFF8EB;
+}
+.header__link {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: #011638;
+  color: #DFF8EB;
+}
+
+.section__title {
+  color: #011638;
+  text-align: center;
+}
+.section__sub-title {
+  color: #011638;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  font-size: 46px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  font-size: 26px;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+/* Resume Page */
+/* Created : 12:30 18/01/2019
+   Created By : lachn
+   _resume - OPEN
+*/
+/* Set Width to Make resume fit to A$ Display */
+.resume {
+  max-width: 842px;
+  margin: auto;
+}
+.resume h2 {
+  margin: 0 0 10px 0;
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom: 10px;
+}
+
+.resume-header {
+  margin-bottom: 20px;
+}
+.resume-header .resume-header__name {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.resume-experience .resume-experience__title {
+  margin-top: 0;
+}
+
+.resume-experience-list {
+  margin: 10px 0;
+}
+.resume-experience-list .resume-experience-list__item {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.resume-education .resume-education__title {
+  margin: 0 0 10px 0;
+}
+.resume-education .resume-education__item {
+  margin-top: 10px;
+}
+.resume-education .resume-education__item * {
+  margin: 0;
+  font-size: 14px;
+}
+
+.resume-content .resume-content__col-1 {
+  -webkit-flex-basis: 400px;
+  -moz-flex-basis: 400px;
+  -ms-flex-basis: 400px;
+  flex-basis: 400px;
+  padding-right: 20px;
+  border-right: 1px solid #98baf2;
+}
+.resume-content .resume-content__col-2 {
+  padding-left: 20px;
+  border-left: 1px solid #98baf2;
+}
+
+.resume-references {
+  max-width: 742px;
+  margin: auto;
+  font-size: 12px;
+}
+.resume-references .resume-references__title {
+  text-align: center;
+}
+.resume-references .resume-references__item {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.resume-references .resume-references__item .resume-references__name {
+  width: 200px;
+}
+.resume-references .resume-references__item .resume-references__position {
+  width: 300px;
+}
+.resume-references .resume-references__item .resume-references__email {
+  width: 200px;
+}
+.resume-references .resume-references__item .resume-references__phone {
+  -webkit-flex-basis: 20%;
+  -moz-flex-basis: 20%;
+  -ms-flex-basis: 20%;
+  flex-basis: 20%;
+}
+
+/* _resume - CLOSE */
+
+/*# sourceMappingURL=styles.css.map */

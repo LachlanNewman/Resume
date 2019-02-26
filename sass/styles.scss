@@ -3,15 +3,11 @@
 @import "helpers/functions";
 @import "helpers/mixins";
 
+@import "base/variables";
 @import "base/globals";
 @import "base/typography";
 
 /* Resume Page */;
-@import "pages/resume/resume-globals";
-@import "pages/resume/resume-education";
-@import "pages/resume/resume-header";
-@import "pages/resume/resume-references";
-@import "pages/resume/resume-experience";
-@import "pages/resume/resume-skills";
-@import "pages/resume/resume-content";
+
+@import "pages/resume";
 
